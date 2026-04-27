@@ -1,25 +1,13 @@
-// Importe suas páginas atuais aqui
-// import HomePage from './pages/HomePage';
+import { Routes, Route } from 'react-router'
+import Home from './pages/Home'
+import Admin from './pages/Admin'
 
-// Importe o admin
-import AdminPage from './pages/AdminPage';
-
-function App() {
-  // Verifica se está na rota /admin
-  const isAdmin = window.location.pathname.startsWith('/admin');
-
-  if (isAdmin) {
-    return <AdminPage />;
-  }
-
-  // Sua página principal normal
+export default function App() {
   return (
-    <div>
-      {/* Substitua por sua página principal */}
-      <h1>🏠 Home Page</h1>
-      <a href="/admin" style={{ color: '#2563eb' }}>Go to Admin →</a>
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {/* Admin route - hidden from navigation, accessible directly via /admin */}
+      <Route path="/admin" element={<Admin />} />
+    </Routes>
+  )
 }
-
-export default App;
