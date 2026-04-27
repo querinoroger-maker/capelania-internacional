@@ -11,3 +11,28 @@ export default function App() {
     </Routes>
   )
 }
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AuthProvider } from './hooks/useAuth';
+import LoginPage from './pages/LoginPage';
+import AdminDashboard from './pages/AdminDashboard';
+
+// ... mantenha suas importações atuais!
+
+function App() {
+  return (
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          {/* SUAS ROTAS ATUAIS - NÃO APAGUE! */}
+          <Route path="/" element={<SuaPaginaAtual />} />
+          
+          {/* ADICIONE ESTAS ROTAS DO ADMIN */}
+          <Route path="/admin" element={<LoginPage />} />
+          <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
+  );
+}
+
+export default App;
