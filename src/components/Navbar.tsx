@@ -33,7 +33,7 @@ export default function Navbar() {
             className="flex items-center gap-2"
           >
             <span className="text-yellow-500 font-bold text-lg tracking-wider">
-              EDIFY MISSION
+              IRC MISSION
             </span>
           </button>
 

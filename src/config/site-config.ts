@@ -4,31 +4,31 @@
 
 export const siteConfig = {
   // Nome da organizacao
-  organization: "Edify Mission International Chaplaincy",
+  organization: "IRC INTERNATIONAL RESCUE CHAPLAIN",
 
   // Email de contato
-  email: "info@edifymission.org",
+  email: "info.ircusa@gmail.com",
 
   // Telefone de contato
-  phone: "+1 (508) 263-0265",
+  phone: "+1 (843) 385-0220",
 
   // Endereco completo
   address: {
-    line1: "794 Boston Post Road East",
-    line2: "Marlborough, MA 01752",
+    line1: "3325 Waccamaw Blvd",
+    line2: "Myrtle Beach, SC 29579",
     country: "USA",
   },
 
   // Redes sociais (deixe vazio "" se nao quiser exibir)
   social: {
     facebook: "",
-    instagram: "https://instagram.com/capelaniaedificar",
+    instagram: "https://instagram.com/internacionalrescuechaplain",
     youtube: "",
     twitter: "",
   },
 
   // Link do Google Maps para o endereco
-  mapUrl: "https://www.google.com/maps/place/794+Boston+Post+Rd+E,+Marlborough,+MA+01752,+USA",
+  mapUrl: "https://www.google.com/maps/place/Tabernaculo+church/@33.7188841,-78.9302313,20z/data=!4m6!3m5!1s0x89006b653274ba47:0x69cbaba5e94fc9a0!8m2!3d33.718901!4d-78.929927!16s%2Fg%2F11rjkkxycc!5m1!1e4?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D",
 
   // Imagem de fundo do hero (pode trocar a URL)
   heroBackground: "/bg.jpg",
@@ -39,33 +39,63 @@ export const siteConfig = {
 // ============================================================
 export const aboutContent = {
   pt: [
-    "A Missão Internacional foi organizada em 2006 pelo Pastor Estacio L Portela no estado de Massachusetts EUA como uma agência Cristã Missionária interdenominacional de atuação internacional para expandir o Reino de Deus.",
-    "Nossa missão passou por diferentes fases e vários projetos em parcerias com outros missionários especialmente ligados em áreas sociais. Atualmente a Missão Edificar tem um trabalho de plantação de um núcleo em inglês numa região aonde igrejas americanas tem fechado e o Evangelho não tem sido pregado aos americanos.",
-    "Em Março de 2020 a Missão Edificar começou um encontro online, inicialmente com a pastora Lilian Mazzini e o Missionário José Soares, durante a pandemia do Covid19 criando assim uma oportunidade de alcance global de través da internet.",
-    "Nosso alvo continua sendo o de sermos um missão interdenominacional de Capelania Evangélica levando a mensagem de Jesus as ovelhas que tanto Jesus ama. Afinal de contas Jesus veio para os que se haviam perdido e para os doentes, não para os sãos.",
-    "Para isso, nos organizamos como Missão também no Brasil como uma associação de missionários e capelania oferecendo treinamento, parceria, credenciamento e motivação a leigos e profissionais que queiram trabalhar conosco.",
-    "No dia 28 de Março de 2021 um grupo de amigos e servos de Deus se reuniram em assembleia administrativa para oficialmente organizar a missão no Brasil. Agora estamos firmes no nosso trabalho oficial de Capelania Eclesiástica para mobilizarmos o povo de Deus no trabalho em hospitais, presídios, escolas e mobilização durante catastrofes.",
-    "Estamos trabalhando também na implantação de um Seminário Bíblico Online através da Pra. Lilian Mazzini aonde estaremos promovendo o treinamento em teologia, capelania e liderança Cristã.",
+    "A IRC – International Rescue Chaplain é uma organização cristã non-profit (sem fins lucrativos), fundada pelo Rev. Dr. Guardião JoseFausto Lourenco, juntamente auxiliado pelo Capelão Mestre e instrutor Rev. Dr. Aldenir Oliveira .",
+    "A instituição tem como missão treinar, equipar e capacitar líderes religiosos e voluntários para o exercício da capelania em diferentes contextos, incluindo áreas hospitalares, prisionais, sociais e de resposta a desastres.",
+    "Com o passar dos anos, a IRC expandiu sua atuação e hoje possui presença internacional, oferecendo suporte em situações de assistência humanitária e cuidado espiritual em momentos de crise, sempre fundamentada em princípios cristãos de compaixão, serviço e restauração.",
+    "Sede e Atuação",
+    "A IRC International Rescue Chaplain – Carolinas/Boston atua como centro de coordenação para capelães que servem principalmente nos Estados Unidos, Brasil e outros países, promovendo integração, supervisão e apoio ministerial.",
+    "A instituição é registrada nos órgãos competentes dos Estados Unidos como uma organização religiosa non-profit de assistência social, permitindo que seus membros atuem de acordo com as leis locais em hospitais, prisões, abrigos e áreas de desastre.",
+    "Na região de Horry County and Suffolk County e áreas vizinhas, são realizados treinamentos, cursos de formação e cerimônias de formatura, atendendo comunidades brasileiras e hispanas.",
     "Na verdade tudo isso parece um sonho. Mas é um sonho pela fé num Deus grande que merece o nosso melhor. A Missão Edificar é mais do que uma organização de Missões e Capelania e logo voltados a treinar e credenciar terapeutas Cristãos. É na verdade a união de servos de Deus e amigos que amam missões e querem fazer algo mais pelo Reino de Deus. Por isso a nossa bandeira é apresentar a Jesus e a Jesus somente. Una-se a nós nessa obra!",
+    "Missão",
+    "Capacitar e enviar capelães e voluntários treinados para oferecer cuidado espiritual, apoio emocional e assistência humanitária em situações de crise, desastre e vulnerabilidade social, promovendo esperança, dignidade e restauração de vidas.",
+    "Visão",
+    "Ser uma referência internacional em capelania cristã de resposta a crises, formando uma rede de capelães preparados, sensíveis e comprometidos com o cuidado integral do ser humano em qualquer lugar do mundo. Nossa base de voluntariado: amar e servir.",
+    "Valores",
+    "•⁠  ⁠Fé Cristã – Baseados nos princípios bíblicos de amor, compaixão e serviço ao próximo.",
+    "•⁠  ⁠Integridade – Atuação ética, responsável e transparente em todas as áreas.",
+    "•⁠  ⁠Compaixão – Cuidado genuíno com pessoas em sofrimento físico, emocional e espiritual.",
+    "•⁠  ⁠Serviço – Compromisso em servir sem distinção de cultura, religião ou origem.",
+    "•⁠  ⁠Excelência no Treinamento – Formação contínua em capelania e resposta a crises.",
+    "•⁠  ⁠Respeito às Leis Locais – Atuação sempre em conformidade com as autoridades e regulamentações vigentes.",
+    "•⁠  ⁠Unidade – Trabalho em rede com capelães e organizações parceiras ao redor do mundo.",
+    "Treinamento e Credenciamento",
+    "A IRC oferece formação em capelania e resposta a crises, preparando seus membros para atuação em ambientes de emergência e apoio humanitário.",
+    "As credenciais emitidas pela IRC são utilizadas como identificação de serviço voluntário e treinamento, reconhecendo que o participante é:",
+    "•⁠  ⁠Psychological First Aid (PFA) – Trained",
+    "•  Critical Incident Stress Management (CISM) – Trained",
+    "•⁠  ⁠Chaplaincy & Crisis Response Training – Trained",
+    "Esses treinamentos fortalecem a preparação dos capelães para atuar com responsabilidade, sensibilidade e respeito em situações de alta complexidade emocional e social, sempre com base em princípios cristãos de cuidado ao próximo.",
   ],
   en: [
-    "The International Mission was organized in 2006 by Pastor Estacio L Portela in the state of Massachusetts USA as an interdenominational Christian Missionary agency with international reach to expand the Kingdom of God.",
-    "Our mission has gone through different phases and several projects in partnerships with other missionaries especially linked in social areas. Currently, Missão Edificar has a church planting work in English in a region where American churches have been closing and the Gospel has not been preached to Americans.",
-    "In March 2020, Missão Edificar started an online meeting, initially with Pastor Lilian Mazzini and Missionary José Soares, during the Covid19 pandemic, thus creating an opportunity for global reach through the internet.",
-    "Our goal continues to be to be an interdenominational Evangelical Chaplaincy mission bringing the message of Jesus to the sheep that Jesus so loves. After all, Jesus came for those who were lost and for the sick, not for the healthy.",
-    "For this purpose, we organized ourselves as a Mission also in Brazil as an association of missionaries and chaplaincy offering training, partnership, accreditation and motivation to lay people and professionals who want to work with us.",
-    "On March 28, 2021, a group of friends and servants of God gathered in an administrative assembly to officially organize the mission in Brazil. Now we are firm in our official work of Ecclesiastical Chaplaincy to mobilize God's people in work in hospitals, prisons, schools and mobilization during disasters.",
-    "We are also working on implementing an Online Bible Seminary through Pastor Lilian Mazzini where we will be promoting training in theology, chaplaincy and Christian leadership.",
-    "In fact, all this seems like a dream. But it is a dream of faith in a great God who deserves our best. Missão Edificar is more than a Missions and Chaplaincy organization and soon focused on training and accrediting Christian therapists. It is actually the union of servants of God and friends who love missions and want to do something more for the Kingdom of God. That is why our flag is to present Jesus and Jesus only. Join us in this work!",
-  ],
+    "IRC – International Rescue Chaplain is a Christian non-profit organization, founded by Rev. Dr. José Fausto Lourenço, and further assisted by a Master Chaplain and Instructor. Rev Aldenir Oliveira",
+    "The institution's mission is to train, equip, and empower religious leaders and volunteers to practice chaplaincy in diverse settings, including hospitals, correctional facilities, social service environments, and disaster response areas.",
+    "Over the years, the IRC has expanded its scope of operations and now maintains an international presence, offering support in humanitarian aid situations and providing spiritual care during times of crisis—always grounded in Christian principles of compassion, service, and restoration.",
+    "Headquarters and Operations",
+    "IRC International Rescue Chaplain – Carolinas/Boston serves as a hub for cooperation among chaplains serving primarily in the United States, Brazil, and other nations, fostering integration, supervision, and ministerial support.",
+    "The institution is registered with the appropriate authorities in the United States as a non-profit religious and social welfare organization, enabling its members to serve in full compliance with local laws within hospitals, prisons, shelters, and disaster zones.",
+    "In the regions of Horry County, Suffolk County, and surrounding areas, the organization conducts training sessions, certification courses, and graduation ceremonies, serving both Brazilian and Hispanic communities.",
+    "Mission",
+    "To empower and deploy trained chaplains and volunteers to provide spiritual care, emotional support, and humanitarian aid during times of crisis, disaster, and social vulnerability—thereby fostering hope, dignity, and the restoration of lives.",
+    "Vision",
+    "To become an international benchmark in Christian crisis-response chaplaincy, establishing a network of chaplains who are well-prepared, compassionate, and committed to the holistic care of human beings anywhere in the world. Our volunteer foundation: to love and to serve.",
+    "Values",
+    "*   Christian Faith – Grounded in biblical principles of love, compassion, and service to one's neighbor. * Integrity – Ethical, responsible, and transparent conduct in all areas.",
+    "•⁠  ⁠Compassion – Genuine care for individuals experiencing physical, emotional, and spiritual suffering.",
+    "•⁠  ⁠Service – A commitment to serve without distinction of culture, religion, or origin.",
+    "•⁠  ⁠Excellence in Training – Continuous professional development in chaplaincy and crisis response.",
+    "•⁠  ⁠Respect for Local Laws – Operating at all times in compliance with current authorities and regulations.",
+    "•⁠  ⁠Unity – Collaborative networking with chaplains and partner organizations worldwide.",
+    "The IRC provides training in chaplaincy and crisis response, preparing its members to serve in emergency environments and humanitarian support settings.",
+    "The credentials issued by the IRC serve as identification for voluntary service and training, confirming that the participant is:",
+    "•⁠  ⁠Trained in Psychological First Aid (PFA)",
+    "•⁠  ⁠Trained in Critical Incident Stress Management (CISM)",
+    "•⁠  ⁠Trained in Chaplaincy and Crisis Response",
+    "These training programs enhance chaplains' preparedness to act with responsibility, sensitivity, and respect in situations of high emotional and social complexity, always grounded in Christian principles of caring for one's neighbor.",
+   ],
   es: [
-    "La Misión Internacional fue organizada en 2006 por el Pastor Estacio L Portela en el estado de Massachusetts, EE. UU. como una agencia Misionera Cristiana interdenominacional de alcance internacional para expandir el Reino de Dios.",
-    "Nuestra misión ha pasado por diferentes fases y varios proyectos en asociaciones con otros misioneros especialmente vinculados en áreas sociales. Actualmente, Missão Edificar tiene un trabajo de plantación de iglesias en inglés en una región donde las iglesias estadounidenses han estado cerrando y el Evangelio no ha sido predicado a los estadounidenses.",
-    "En marzo de 2020, Missão Edificar comenzó una reunión en línea, inicialmente con la Pastora Lilian Mazzini y el Misionero José Soares, durante la pandemia de Covid19, creando así una oportunidad de alcance global a través de internet.",
-    "Nuestro objetivo sigue siendo ser una misión interdenominacional de Capellanía Evangélica llevando el mensaje de Jesús a las ovejas que Jesús tanto ama. Después de todo, Jesús vino por los que se habían perdido y por los enfermos, no por los sanos.",
-    "Para este propósito, nos organizamos como Misión también en Brasil como una asociación de misioneros y capellanía ofreciendo entrenamiento, asociación, acreditación y motivación a laicos y profesionales que quieran trabajar con nosotros.",
-    "El 28 de marzo de 2021, un grupo de amigos y siervos de Dios se reunieron en una asamblea administrativa para organizar oficialmente la misión en Brasil. Ahora estamos firmes en nuestro trabajo oficial de Capellanía Eclesiástica para movilizar al pueblo de Dios en el trabajo en hospitales, prisiones, escuelas y movilización durante desastres.",
-    "También estamos trabajando en la implementación de un Seminario Bíblico en Línea a través de la Pastora Lilian Mazzini donde estaremos promoviendo el entrenamiento en teología, capellanía y liderazgo cristiano.",
-    "De hecho, todo esto parece un sueño. Pero es un sueño de fe en un gran Dios que merece lo mejor de nosotros. Missão Edificar es más que una organización de Misiones y Capellanía y pronto enfocada en entrenar y acreditar terapeutas cristianos. Es en realidad la unión de siervos de Dios y amigos que aman las misiones y quieren hacer algo más por el Reino de Dios. Por eso nuestra bandera es presentar a Jesús y a Jesús solamente. ¡Únase a nosotros en esta obra!",
+    "El IRC —International Rescue Chaplain— es una organización cristiana sin fines de lucro fundada por el Rev. Dr. Guardião JoseFausto Lourenco, asistido por el Capellán Maestro e Instructor Rev. Dr. Aldenir Oliveira.",
+    "La misión de la institución es formar, equipar y empoderar a líderes religiosos y voluntarios para ejercer el capellanía en diversos contextos, incluidos los ámbitos hospitalario, penitenciario, social y de respuesta ante desastres.",
+    "A lo largo de los años, el IRC ha expandido sus operaciones y ahora mantiene una presencia internacional, ofreciendo apoyo en situaciones de ayuda humanitaria y atención espiritual durante tiempos de crisis, siempre fundamentado en los principios cristianos de compasión, servicio y restauración.",
   ],
 };
