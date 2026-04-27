@@ -1,37 +1,24 @@
-import { Routes, Route } from 'react-router'
-import Home from './pages/Home'
-import Admin from './pages/Admin'
+// Importe suas páginas atuais aqui
+// import HomePage from './pages/HomePage';
 
-export default function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      {/* Admin route - hidden from navigation, accessible directly via /admin */}
-      <Route path="/admin" element={<Admin />} />
-    </Routes>
-  )
-}
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './hooks/useAuth';
-import LoginPage from './pages/LoginPage';
-import AdminDashboard from './pages/AdminDashboard';
-
-// ... mantenha suas importações atuais!
+// Importe o admin
+import AdminPage from './pages/AdminPage';
 
 function App() {
+  // Verifica se está na rota /admin
+  const isAdmin = window.location.pathname.startsWith('/admin');
+
+  if (isAdmin) {
+    return <AdminPage />;
+  }
+
+  // Sua página principal normal
   return (
-    <AuthProvider>
-      <BrowserRouter>
-        <Routes>
-          {/* SUAS ROTAS ATUAIS - NÃO APAGUE! */}
-          <Route path="/" element={<SuaPaginaAtual />} />
-          
-          {/* ADICIONE ESTAS ROTAS DO ADMIN */}
-          <Route path="/admin" element={<LoginPage />} />
-          <Route path="/admin/dashboard" element={<AdminDashboard />} />
-        </Routes>
-      </BrowserRouter>
-    </AuthProvider>
+    <div>
+      {/* Substitua por sua página principal */}
+      <h1>🏠 Home Page</h1>
+      <a href="/admin" style={{ color: '#2563eb' }}>Go to Admin →</a>
+    </div>
   );
 }
 
