@@ -6,10 +6,10 @@ export const translations = {
     home: {
       welcome: "SEJA BEM-VINDO!!!",
       title: "CAPELANIA",
-      subtitle: "MISSAO EDIFICAR INTERNACIONAL",
+      subtitle: "IRC RESGATE CAPELANIA INTERNACIONAL",
       quote: '"Esteja Pronto para quando Deus precisar usar a sua vida!"',
       searchTitle: "Pesquisar Associados",
-      searchPlaceholder: "Digite o nome, cidade, curso ou numero do certificado...",
+      searchPlaceholder: "Digite o nome",
       searchButton: "Buscar",
       noResults: "Nenhum associado encontrado.",
       members: "Nossos Associados",
@@ -43,7 +43,7 @@ export const translations = {
     home: {
       welcome: "WELCOME!!!",
       title: "CHAPELAINCY",
-      subtitle: "EDIFY MISSION INTERNATIONAL",
+      subtitle: " IRC INTERNACIONAL RESCUE CHAPLAIN",
       quote: '"Be Ready for when God needs to use your life!"',
       searchTitle: "Search Associates",
       searchPlaceholder: "Enter name, city, course or certificate number...",
@@ -80,7 +80,7 @@ export const translations = {
     home: {
       welcome: "BIENVENIDO!!!",
       title: "CAPELANIA",
-      subtitle: "MISION EDIFICAR INTERNACIONAL",
+      subtitle: "IRC CapellanIa Internacional de Rescate",
       quote: '"Estate listo para cuando Dios necesite usar tu vida!"',
       searchTitle: "Buscar Asociados",
       searchPlaceholder: "Ingrese nombre, ciudad, curso o numero de certificado...",
