@@ -22,7 +22,7 @@ export const siteConfig = {
   // Redes sociais (deixe vazio "" se nao quiser exibir)
   social: {
     facebook: "",
-    instagram: "https://instagram.com/internacionalrescuechaplain",
+    instagram: "https://www.instagram.com/internationalrescuechaplain?igsh=ZXdvdW9lbDlmaTN0&utm_source=qr",
     youtube: "",
     twitter: "",
   },
